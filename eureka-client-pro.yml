@@ -3,8 +3,6 @@ eureka:
     service-url:
      defaultZone: http://localhost:8761/eureka/
 spring:
-  application:
-    name: eureka-client1
   profiles:
     active: prod
   datasource:
